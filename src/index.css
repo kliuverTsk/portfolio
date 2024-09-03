@@ -1,0 +1,351 @@
+/*#263755*/
+/*general*/
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Ubuntu", sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+   
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#root {
+    background-color: #3a5d99;
+    
+}
+
+/*busqueda*/
+#div {
+    display: flex;
+    justify-content: space-between; /* Ajuste de espacio entre elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    background: linear-gradient(to right, #06050ac7, #06050A);
+    padding: 10px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+#color-general {
+    background-color: #06050a8e;
+}
+
+header {
+    background-color: #169180;
+    height: 400px;
+    
+}
+
+#banner {
+    max-width: 100px;
+    position: relative;
+    left: 10%;
+    
+}
+
+
+
+#busqueda {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    position: relative;
+    right: 15%;
+    
+}
+
+#busqueda > li {
+    
+    padding-right: 13px;
+    
+}
+
+#busqueda > li > a {
+    color: antiquewhite;
+    font-size: 15px;
+    text-decoration: none;
+}
+#busqueda > li :hover {
+    text-decoration: underline;
+    color: rgb(33, 136, 26);
+}
+
+/*presentacion*/
+
+
+
+#presentacion {
+    display: flex;
+    position: relative;
+    margin-left: 15%;
+    margin-bottom: 100px;
+    
+}
+
+#position {
+    margin-right: 25%;
+    margin-top: 8%;
+}
+
+#position > h1 {
+    font-size: 50px;
+}
+
+#position > #h4 {
+    font-size: 30px;
+    color: white;
+}
+#position > p {
+    font-size: 14px;
+    width: 50%;
+}
+
+#position > h4 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+    font-size: 17px;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+#img {
+    margin-top: 5%;
+}
+
+#separador {
+    position: relative;
+    margin-top: 15px;
+    
+    
+}
+
+
+#separador > #margin1 {
+    margin-left: 10px;
+}
+
+#separador > #margin2 {
+    margin-left: 40px;
+}
+
+.tamaño {
+    max-width: 30px;
+    position: absolute;
+    bottom: -6px;
+}
+
+#estilos {
+    font-size: 13px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 15px ;
+    border: 1px solid rgba(255, 255, 255, 0.84);
+}
+
+
+
+/*principal*/
+
+main {
+    position: relative;
+    top: 60px;
+    margin: auto;
+    width: 50%;
+    
+    
+}
+
+main > h1 {
+    margin-bottom: 120px;
+    text-align: center;
+    font-size: 60px;
+    
+    
+}
+
+#yo {
+    display: flex;
+    
+}
+
+#yo > p {
+    margin-left: 17%;
+    font-size: 17px;
+    width: 100%;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;;
+   
+    
+}
+#yo > img {/*aqui ver si esta eç errpr*/
+    position: relative;
+    left: -10px;
+    bottom: 50px;
+}
+
+
+
+#container {
+    display: flex;
+    width: 675px;
+    height: 10%; 
+}
+
+
+#container1 {
+    margin-right: 100px;
+    width: 600px;
+       
+}
+
+
+#container1 > img, #container2 > img {
+    margin-left: 100px;
+    width: 52px;
+    background-color: rgba(127, 255, 212, 0.724);
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+
+#container1, #container2 {
+    background-color: rgba(240, 248, 255, 0);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+
+#container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container1 li {
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+#container2 > p , #container2 li {
+    font-size: 15px;
+    line-height: 1.5;
+}
+#container2 > p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: 15%;
+    
+}
+footer > h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 5%;
+    margin-left: 200px;
+    background-color: rgba(240, 248, 255, 0.445);
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 5px;
+    
+    
+}
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.block {
+    display: block;
+    font-size: 15px;
+}
+
+
+#bloc {
+    display: flex;
+    
+}
+
+
+
+
+#redes{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+
+input {
+    width: 100%;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    resize: none;
+}
+
+form > button {
+    background-color: #169180;
+    padding: 5px 12px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+
+dir {
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 0px 10px 0px 10px;
+}
+
+
+dir > #ban > #banner {
+    left: 0px;
+}
+
+
+dir > #ban > p {
+    font-size: 13px;
+    width: 53%;
+}
+
+dir > h4 {
+    margin-left: 5%;
+    display: block;
+
+}
+
+
