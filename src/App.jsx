@@ -35,7 +35,7 @@ function App() {
       id: 1,
       titulo: "Mini Rede Social",
       descripcion: "Rede social básica mas totalmente funcional que demonstra minhas habilidades em desenvolvimento web",
-      imagen: "/portfolio/imgs/mini-red-social.jpg",
+      imagen: "./imgs/mini-red-social.jpg",
       demo: "https://kliuvertsk.github.io/mini-red-social/#/",
       codigo: "https://github.com/kliuverTsk/mini-red-social" 
     },
@@ -43,7 +43,7 @@ function App() {
       id: 2,
       titulo: "Loja Virtual",
       descripcion: "E-commerce desenvolvido com React",
-      imagen: "/portfolio/imgs/tienda-online.png",
+      imagen: "./imgs/tienda-online.png",
       demo: "https://kliuvertsk.github.io/tienda-online/#/",
       codigo: "https://github.com/kliuverTsk/tienda-online"
     },
@@ -51,7 +51,7 @@ function App() {
       id: 3,
       titulo: "App do Clima",
       descripcion: "Painel do clima interativo e dados em tempo real",
-      imagen: "/portfolio/public/imgs/ver-clima.png",
+      imagen: "./imgs/ver-clima.png",
       demo: "https://kliuvertsk.github.io/clima/",
       codigo: "https://github.com/kliuverTsk/clima"
     }
