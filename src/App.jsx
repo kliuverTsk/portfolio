@@ -51,7 +51,7 @@ function App() {
       id: 3,
       titulo: "App do Clima",
       descripcion: "Painel do clima interativo e dados em tempo real",
-      imagen: "/portfolio/imgs/ver-clima.png",
+      imagen: "/portfolio/public/imgs/ver-clima.png",
       demo: "https://kliuvertsk.github.io/clima/",
       codigo: "https://github.com/kliuverTsk/clima"
     }
