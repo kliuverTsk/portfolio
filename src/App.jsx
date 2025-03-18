@@ -83,10 +83,10 @@ function App() {
           <h1>Kliuvert Figueroa</h1>
           <h2>Desenvolvedor Frontend Junior</h2>
           <div className="social-links">
-            <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/https://github.com/kliuverTsk" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/https://br.linkedin.com/in/kliuvert-figueroa-77b2ab292?fbclid=IwY2xjawJGhklleHRuA2FlbQIxMAABHagMH1ohecKLRkFaQFvWFxEd7qhvgkFVOGaKO73SGF6Y-b9DynondPtxWg_aem_hlGUaPP1O7NP9HOjZjM4ug" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
           </div>
