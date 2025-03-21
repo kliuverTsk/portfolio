@@ -25,13 +25,13 @@ function App() {
     
     const mensaje = `Olá! Meu nome é ${formData.nombre}.\nMeu email é: ${formData.email}.\nMensagem: ${formData.mensaje}`;
     const mensajeCodificado = encodeURIComponent(mensaje);
-    const whatsappUrl = `https://wa.me/5511949749057?text=${mensajeCodificado}`;
+    const whatsappUrl = `https://wa.me/5511985503125?text=${mensajeCodificado}`;
     
     window.open(whatsappUrl, '_blank');
     setFormData({ nombre: '', email: '', mensaje: '' });
   };
 
-  const whatsappLink = `https://wa.me/5511949749057?text=Olá,%20tenho%20interesse%20em%20contactar`;
+  const whatsappLink = `https://wa.me/5511985503125?text=Olá,%20tenho%20interesse%20em%20contactar`;
 
   const proyectos = [
     {
