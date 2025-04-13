@@ -41,10 +41,10 @@ function App() {
   const proyectos = [
     {
       id: 0,
-      titulo: "restaurant",
-      descripcion: "Aplicativo meteorológico que fornece informações precisas e atualizadas em tempo real. Desenvolvido com API de previsão do tempo, exibe temperatura, umidade, velocidade do vento e previsão para os próximos dias com interface moderna.",
+      titulo: "Restaurant Landing Page",
+      descripcion: "Landing page moderna e elegante para restaurante, desenvolvida com next js. Design responsivo com pratos populares  e informações do estabelecimento. Interface intuitiva que destaca a experiência gastronômica e facilita o contato com clientes.",
       imagen: restaurant,
-      demo: "https://kliuvertsk.github.io/clima/",
+      demo: "https://restauran-landing-k5wq.vercel.app/",
     },
     {
       id: 1,
