@@ -5,6 +5,7 @@ import gerenciadorClientes from './assets/gerenciador-clientes.png'
 import tiendaOnline from './assets/tienda-online.webp'
 import verClima from './assets/clima.png'
 import pizeeria from "./assets/pizzeria.png"
+import restaurant from "./assets/restaurant.png"
 import { FaBars } from 'react-icons/fa';
 import './App.css'
 
@@ -39,6 +40,13 @@ function App() {
 
   const proyectos = [
     {
+      id: 0,
+      titulo: "restaurant",
+      descripcion: "Aplicativo meteorológico que fornece informações precisas e atualizadas em tempo real. Desenvolvido com API de previsão do tempo, exibe temperatura, umidade, velocidade do vento e previsão para os próximos dias com interface moderna.",
+      imagen: restaurant,
+      demo: "https://kliuvertsk.github.io/clima/",
+    },
+    {
       id: 1,
       titulo: "pizzaria",
       descripcion: "Sistema de pizzaria online desenvolvido com React, permitindo aos clientes visualizar o cardápio e fazer reservas de mesas.",
@@ -52,7 +60,6 @@ function App() {
       descripcion: "Sistema completo de gestão de clientes com recursos de cadastro, edição e acompanhamento. Desenvolvido com React e integração de banco de dados, oferece interface intuitiva e relatórios detalhados.",
       imagen: gerenciadorClientes,
       demo: "https://kliuvertsk.github.io/gerenciador-clientes/",
-      codigo: "https://github.com/kliuverTsk/gerenciador-clientes" 
     },
     {
       id: 3,
@@ -60,7 +67,6 @@ function App() {
       descripcion: "E-commerce completo desenvolvido com React, oferecendo experiência de compra intuitiva, carrinho de compras dinâmico, catálogo de produtos e sistema de contra-entrega integrado com whatsapp. Interface moderna e responsiva para todos dispositivos.",
       imagen: tiendaOnline,
       demo: "https://kliuvertsk.github.io/tienda-online/#/",
-      codigo: "https://github.com/kliuverTsk/tienda-online"
     },
     {
       id: 4,
@@ -68,8 +74,8 @@ function App() {
       descripcion: "Aplicativo meteorológico que fornece informações precisas e atualizadas em tempo real. Desenvolvido com API de previsão do tempo, exibe temperatura, umidade, velocidade do vento e previsão para os próximos dias com interface moderna.",
       imagen: verClima,
       demo: "https://kliuvertsk.github.io/clima/",
-      codigo: "https://github.com/kliuverTsk/clima"
-    }
+    },
+    
   ];
 
   const toggleMenu = () => {
@@ -213,14 +219,6 @@ function App() {
                     rel="noopener noreferrer"
                   >
                     Ver Demo
-                  </a>
-                  <a 
-                    href={proyecto.codigo} 
-                    className="project-code" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                  >
-                    Ver Código
                   </a>
                 </div>
               </div>
